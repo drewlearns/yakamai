@@ -1,0 +1,11 @@
+<%- include ("./partials/header") %>
+  <h1><%= title %></h1>
+  <ul>
+    <% for(var i=0; i<data.length; i++){ %>
+    <li>
+      <%= data[i] %>
+    </li>
+    <% }; %>
+  </ul>
+  <a href='/'>Home<a />
+<%- include ("./partials/footer") %>
