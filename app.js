@@ -18,7 +18,6 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 app.set('eg', eg); //allows access to eg globally even when not defined
 
-
 //Individual routes are defined here:
 app.use(logger("dev"));
 app.use(express.json());
