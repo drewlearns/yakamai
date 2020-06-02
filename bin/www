@@ -11,7 +11,7 @@ var http = require("http");
 /**
  * Get port from environment and store in Express.
  */
-let pNum = 3002;
+let pNum = 3003;
 
 var port = normalizePort(process.env.PORT || pNum);
 app.set("port", port);
@@ -34,7 +34,6 @@ console.log(`
  */
 
 var server = http.createServer(app);
-
 /**
  * Listen on provided port, on all network interfaces.
  */

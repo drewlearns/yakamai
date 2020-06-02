@@ -1,3 +1,10 @@
-<h1><%= message %></h1>
-<h2><%= error.status %></h2>
+<%- include ("./partials/header") %>
+
+<h1> Oops, you broke it...</h1>
+<div id="content" class="p-4 p-md-5 pt-5">
+            <h2 class="mb-4">Oops</h2>
+            <h1><%= message %></h1>
+            <h2><%= error.status %></h2>
+</div>
 <pre><%= error.stack %></pre>
+<%- include ("./partials/footer") %>

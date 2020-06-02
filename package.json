@@ -16,7 +16,7 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1"
   },
-  "description": "Akamai PAPI API demo work through",
+  "description": "Akamai PAPI API",
   "main": "app.js",
   "devDependencies": {},
   "repository": {
