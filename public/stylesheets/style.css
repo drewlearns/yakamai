@@ -8363,3 +8363,11 @@ a[data-toggle="collapse"] {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1; }
+
+/* Adding some additional functionality & customization */
+#sidebar > div.p-4 > div > p > a {
+  color: #fafafa
+}
+#sidebar {
+  margin-right: 30px;
+}
